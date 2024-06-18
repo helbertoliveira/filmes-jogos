@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(images/wallpaper.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    color: white;
+}
+
+main {
+    text-align: center;
+}
+
+#d1 {
+    width: 320px;
+    height: 400px;
+    border: solid 1px black;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+#d1 > img {
+    border-radius: 8px;
+}
+
+#d2 {
+    width: 320px;
+    height: 400px;
+    border: solid 1px black;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+}
+
+#d2 > p {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin: 10px;
+    text-align: left;
+}
+
+#d2 > #desc {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 10px;
+    text-align: left;
+}
+
+#d3 {
+    width: 320px;
+    height: 400px;
+    border: solid 1px black;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+}
+
+#d3 p {
+    font-size: 1.6em;
+    text-align: left;
+    margin: 10px;
+}
+
+#d3 li {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+#d3 a {
+    color: white;
+    text-decoration: none;
+}
+
+#d3 a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#a1 {
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+}
+
+#a1 > p {
+    font-size: 1.8em;
+    font-weight: bold;
+    background-color: rgb(166, 96, 180);
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 10px;
+}
+
+#a2 {
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+}
+
+#a2 > p {
+    font-size: 1.8em;
+    font-weight: bold;
+    background-color: rgb(166, 96, 180);
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 10px;
+}
+
+#a3 {
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+}
+
+#a3 > p {
+    font-size: 1.8em;
+    font-weight: bold;
+    background-color: rgb(166, 96, 180);
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 10px;
+}
